@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Listar</title>
+		<link rel="stylesheet" href="index.css">
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<div id="all">
+			<div class="card">
+				<div class="elem">
+                    <label>Nome:
+                        <input type="text" id="name">
+                    </label>
+                    <label>Descrição:
+                        <input type="text" id="des">
+                    </label>
+                    <label>Valor:
+                        <input type="text" id="value">
+                    </label>
+                    <button onclick="incluir()" class="but">Incluir Produto</button>
+                    <button onclick="listar()" class="but">Listar Produtos</button>
+				</div>
+				<div id="elem" class="elem" style="padding:0.5rem;">
+					<input type="text" id="buscador">
+					<button onclick="busca()" class="but">Buscar</button>
+				</div>
+                <div class="elem" id="data">
+                    
+                </div>
+			</div>
+		</div>
+		<script></script>
+	</body>
+</html>

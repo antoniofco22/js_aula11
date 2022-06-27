@@ -1,0 +1,54 @@
+*{
+	padding:0;
+	margin:0;
+}
+#all{
+	width:100vw;
+	height:100vh;
+}
+.card{
+	width: 30vw;
+	padding: 1vw;
+	position: relative;
+	left: 34vw;
+	box-shadow: 0rem 0rem 2rem 0rem;
+	background: white;
+}
+.elem{
+    font-size: 1.25rem;
+    font-family: monospace;
+    padding: 0.125rem;
+}
+.but{
+	font-size: 1.25rem;
+    font-family: monospace;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: 100%;
+    font-weight: bold;
+    background-color: #686881;
+    border: 0.25rem solid #686881;
+}
+
+
+
+
+
+.but:hover{
+    color: #686881;
+    background-color: white;
+}
+.elem input{
+	border: 0;
+    border-bottom: 1px solid;
+    width: 100%;
+    font-size: 1rem;
+}
+
+
+
+table{border: 0;width: 100%;}
+tbody>:not(tr:nth-child(1)):hover{background: #8c8c8c;filter: invert(100%);}
+tbody tr:first-child th:nth-child(2),tbody tr:first-child th:nth-child(3),tbody>:not(tr:nth-child(1))>td:nth-child(4)>img,tbody>:not(tr:nth-child(1))>td:nth-child(5)>img{cursor:pointer;}
+table,tbody,tr,td,th {border-spacing: initial;}
+td {text-align: center;}
